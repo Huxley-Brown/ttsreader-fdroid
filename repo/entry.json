@@ -3,9 +3,8 @@
   "version": 20001,
   "index": {
     "name": "/index-v1.json",
-    "sha256": "placeholder",
-    "size": 0,
+    "sha256": "61fabd15e10f82ba72a083f9e2ab8b135f8f8a34d25fc9c65e9c13ef2fefe79f",
+    "size": 1920,
     "numPackages": 1
   }
 }
-

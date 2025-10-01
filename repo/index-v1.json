@@ -3,7 +3,6 @@
     "timestamp": 1727788800000,
     "version": 20001,
     "name": "TTS Reader Repository",
-    "icon": "icon.png",
     "address": "https://huxley-brown.github.io/ttsreader-fdroid/repo",
     "description": "Self-hosted repository for TTS Reader app"
   },
@@ -14,13 +13,13 @@
   "apps": [
     {
       "categories": ["Reading", "Multimedia"],
-      "suggestedVersionCode": "1",
+      "suggestedVersionCode": 1,
       "license": "GPL-3.0-or-later",
       "name": "TTS Reader",
       "sourceCode": "https://github.com/Huxley-Brown/Mobile-TTS-App",
       "issueTracker": "https://github.com/Huxley-Brown/Mobile-TTS-App/issues",
-      "summary": "Privacy-focused TTS eBook reader with offline support",
-      "description": "TTS Reader is a text-to-speech eBook reader designed for privacy and offline use.\n\nFeatures:\n• Read EPUB, PDF, and MOBI files\n• High-quality text-to-speech\n• Offline-first with intelligent caching\n• Background playback with lock-screen controls\n• Adjustable playback speed\n• No tracking or analytics\n• No ads\n• Fully open source\n\nThis is an alpha release with basic UI functionality.\nTTS integration is in development.\n\nLicense: GPL-3.0-or-later\nSource: https://github.com/Huxley-Brown/Mobile-TTS-App",
+      "summary": "Privacy-focused TTS eBook reader",
+      "description": "TTS Reader is a text-to-speech eBook reader for privacy and offline use. Read EPUB, PDF, and MOBI files with high-quality TTS. No tracking or ads. Open source GPL-3.0.",
       "added": 1727788800000,
       "lastUpdated": 1727788800000,
       "packageName": "org.ttsreader.app"
@@ -31,13 +30,13 @@
       {
         "added": 1727788800000,
         "apkName": "org.ttsreader.app_1.apk",
-        "hash": "8859cc8e1db13d7efc7006b9d2844a91",
-        "hashType": "md5",
+        "hash": "b48648a07844522d96cd26a9e9b17d38a87759ddb52cb4ee27885f5e0b4255d2",
+        "hashType": "sha256",
         "minSdkVersion": 24,
         "targetSdkVersion": 35,
         "packageName": "org.ttsreader.app",
-        "sig": "placeholder",
-        "signer": "placeholder",
+        "sig": "4bfeacfab77fb6ba73bfd05880d166322ab877a896c42f8245b4d7af89fea663",
+        "signer": "9ba504727dd43004c531b3e0a9e4636162084 07d",
         "size": 89128960,
         "versionName": "0.1.0",
         "versionCode": 1,
@@ -47,9 +46,9 @@
           ["android.permission.INTERNET", null],
           ["android.permission.READ_EXTERNAL_STORAGE", null],
           ["android.permission.WRITE_EXTERNAL_STORAGE", null]
-        ]
+        ],
+        "uses-permission-sdk-23": []
       }
     ]
   }
 }
-
