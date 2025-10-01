@@ -1,0 +1,55 @@
+{
+  "repo": {
+    "timestamp": 1727788800000,
+    "version": 20001,
+    "name": "TTS Reader Repository",
+    "icon": "icon.png",
+    "address": "https://huxley-brown.github.io/ttsreader-fdroid/repo",
+    "description": "Self-hosted repository for TTS Reader app"
+  },
+  "requests": {
+    "install": [],
+    "uninstall": []
+  },
+  "apps": [
+    {
+      "categories": ["Reading", "Multimedia"],
+      "suggestedVersionCode": "1",
+      "license": "GPL-3.0-or-later",
+      "name": "TTS Reader",
+      "sourceCode": "https://github.com/Huxley-Brown/Mobile-TTS-App",
+      "issueTracker": "https://github.com/Huxley-Brown/Mobile-TTS-App/issues",
+      "summary": "Privacy-focused TTS eBook reader with offline support",
+      "description": "TTS Reader is a text-to-speech eBook reader designed for privacy and offline use.\n\nFeatures:\n• Read EPUB, PDF, and MOBI files\n• High-quality text-to-speech\n• Offline-first with intelligent caching\n• Background playback with lock-screen controls\n• Adjustable playback speed\n• No tracking or analytics\n• No ads\n• Fully open source\n\nThis is an alpha release with basic UI functionality.\nTTS integration is in development.\n\nLicense: GPL-3.0-or-later\nSource: https://github.com/Huxley-Brown/Mobile-TTS-App",
+      "added": 1727788800000,
+      "lastUpdated": 1727788800000,
+      "packageName": "org.ttsreader.app"
+    }
+  ],
+  "packages": {
+    "org.ttsreader.app": [
+      {
+        "added": 1727788800000,
+        "apkName": "org.ttsreader.app_1.apk",
+        "hash": "8859cc8e1db13d7efc7006b9d2844a91",
+        "hashType": "md5",
+        "minSdkVersion": 24,
+        "targetSdkVersion": 35,
+        "packageName": "org.ttsreader.app",
+        "sig": "placeholder",
+        "signer": "placeholder",
+        "size": 89128960,
+        "versionName": "0.1.0",
+        "versionCode": 1,
+        "nativecode": ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"],
+        "features": [],
+        "uses-permission": [
+          ["android.permission.INTERNET", null],
+          ["android.permission.READ_EXTERNAL_STORAGE", null],
+          ["android.permission.WRITE_EXTERNAL_STORAGE", null]
+        ]
+      }
+    ]
+  }
+}
+
