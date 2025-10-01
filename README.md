@@ -8,24 +8,34 @@ This repository hosts the TTS Reader Android app for direct download.
 
 The APK is properly signed and works on all Android devices (7.0+).
 
-## ⚠️ F-Droid App Not Supported
+## 📱 F-Droid Repository
 
-**Important:** This repository **cannot** be added to the F-Droid app as a custom repository.
+**Good news!** You can now add this repository to the F-Droid app.
 
-### Why?
-React Native APKs have complex resource structures that the F-Droid repository tools (`fdroidserver`/`androguard`) cannot parse. The error is:
+### Add to F-Droid App
+
+1. Open F-Droid app
+2. Go to **Settings** → **Repositories**
+3. Tap the **+** button (top right)
+4. Enter the repository details:
+
+**Repository URL:**
 ```
-androguard.core.bytecodes.axml.ResParserError: res1 must be zero!
+https://huxley-brown.github.io/ttsreader-fdroid/repo
 ```
 
-This is a known limitation when parsing React Native APKs with androguard.
+**Fingerprint:**
+```
+9BEB3BD1B1EC00E6CABFF562169FC5017C60FED7CD8B4AD8F838E0EF7489AB83
+```
 
-### Solution
-**Use the direct APK download** from the website above. The APK is:
-- ✅ Properly signed with v2 APK signature scheme
-- ✅ Verified and tested on Android 15 (Pixel 8)
-- ✅ Installs and runs without issues
-- ✅ Same APK you would get from F-Droid
+5. Tap **Add**
+6. Wait for F-Droid to sync
+7. Search for "TTS Reader" and install
+
+### How This Works
+
+While F-Droid's automated tools (`fdroidserver`) cannot parse React Native APKs due to androguard limitations, the repository index was manually created and signed. This provides the same security and functionality as any F-Droid repository
 
 ## 📱 Installation
 
