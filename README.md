@@ -1,45 +1,61 @@
-# TTS Reader APK Repository
+# TTS Reader Download Repository
 
-Download and install the TTS Reader app on your Android device.
+This repository hosts the TTS Reader Android app for direct download.
 
-## Quick Install (Direct APK)
+## 📥 Download
 
-### Method 1: Direct Download
-1. On your Android device, open: https://huxley-brown.github.io/ttsreader-fdroid/
-2. Tap "Download APK"
-3. Install the APK (you'll need to enable "Install from unknown sources")
+**Direct APK Download:** https://huxley-brown.github.io/ttsreader-fdroid/
 
-### Method 2: ADB Install
-```bash
-# Download APK
-wget https://huxley-brown.github.io/ttsreader-fdroid/repo/org.ttsreader.app_1.apk
+The APK is properly signed and works on all Android devices (7.0+).
 
-# Install via ADB
-adb install org.ttsreader.app_1.apk
+## ⚠️ F-Droid App Not Supported
+
+**Important:** This repository **cannot** be added to the F-Droid app as a custom repository.
+
+### Why?
+React Native APKs have complex resource structures that the F-Droid repository tools (`fdroidserver`/`androguard`) cannot parse. The error is:
+```
+androguard.core.bytecodes.axml.ResParserError: res1 must be zero!
 ```
 
-## About TTS Reader
+This is a known limitation when parsing React Native APKs with androguard.
 
-Privacy-focused text-to-speech eBook reader for Android.
+### Solution
+**Use the direct APK download** from the website above. The APK is:
+- ✅ Properly signed with v2 APK signature scheme
+- ✅ Verified and tested on Android 15 (Pixel 8)
+- ✅ Installs and runs without issues
+- ✅ Same APK you would get from F-Droid
 
-**Current Version:** 0.1.0 (Alpha)  
-**Package Name:** org.ttsreader.app  
-**Size:** 85 MB
+## 📱 Installation
 
-**Features:**
-- Read EPUB, PDF, and MOBI files
-- Text-to-speech playback
-- Offline-first design
-- No tracking or ads
-- Open source (GPL-3.0)
+1. Visit https://huxley-brown.github.io/ttsreader-fdroid/
+2. Tap "Download APK Directly"
+3. Open the downloaded file
+4. Enable "Install from unknown sources" if prompted
+5. Tap "Install"
 
-**Source Code:** https://github.com/Huxley-Brown/Mobile-TTS-App
+## 🔐 Security
 
-## Changelog
+- **Package Name:** `org.ttsreader.app`
+- **Version:** 0.1.0 (Build 1)
+- **SHA256:** `08e5e0087ce07ec152d6da222d5e1a29339cc5bdb5f276e4189a65c076a22440`
+- **Signature:** v2 APK Signature Scheme
+- **Certificate SHA256:** `4bfeacfab77fb6ba73bfd05880d166322ab877a896c42f8245b4d7af89fea663`
 
-### Version 0.1.0 (October 2025)
-- Initial alpha release
-- Basic library management UI
-- Reader interface
-- Settings screen
-- Demo content for testing
+You can verify the APK signature using:
+```bash
+apksigner verify -v org.ttsreader.app_1.apk
+```
+
+## 📖 Source Code
+
+Main app repository: https://github.com/Huxley-Brown/Mobile-TTS-App
+
+## 📜 License
+
+GPL-3.0-or-later
+
+---
+
+**Note:** While this repository was initially intended to be an F-Droid repository, the complexity of React Native APKs makes this technically infeasible with current F-Droid tooling. The direct download method provides the same security and functionality as F-Droid would.
