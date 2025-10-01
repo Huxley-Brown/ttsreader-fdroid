@@ -1,0 +1,6 @@
+Initial alpha release:
+* Basic library management UI
+* Reader interface
+* Settings screen
+* Demo content for testing
+* Foundation for TTS integration

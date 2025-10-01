@@ -1,0 +1,17 @@
+TTS Reader is a text-to-speech eBook reader designed for privacy and offline use.
+
+Features:
+• Read EPUB, PDF, and MOBI files
+• High-quality text-to-speech
+• Offline-first with intelligent caching
+• Background playback with lock-screen controls
+• Adjustable playback speed
+• No tracking or analytics
+• No ads
+• Fully open source
+
+This is an alpha release with basic UI functionality.
+TTS integration is in development.
+
+License: GPL-3.0-or-later
+Source: https://github.com/Huxley-Brown/Mobile-TTS-App

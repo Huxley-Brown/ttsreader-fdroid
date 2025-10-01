@@ -1,0 +1,8 @@
+# F-Droid keystore (keep private!)
+keystore.p12
+*.keystore
+*.jks
+*.p12
+
+# Local config with passwords
+local.properties
