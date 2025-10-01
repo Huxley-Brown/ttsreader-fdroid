@@ -3,6 +3,7 @@
     "timestamp": 1727788800000,
     "version": 20001,
     "name": "TTS Reader Repository",
+    "icon": "icon.png",
     "address": "https://huxley-brown.github.io/ttsreader-fdroid/repo",
     "description": "Self-hosted repository for TTS Reader app"
   },
