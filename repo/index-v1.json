@@ -1,7 +1,7 @@
 {
   "repo": {
-    "timestamp": 1759398033000,
-    "version": 20001,
+    "timestamp": 1759414041000,
+    "version": 20002,
     "name": "TTS Reader Repository",
     "icon": "icon.png",
     "address": "https://huxley-brown.github.io/ttsreader-fdroid/repo",
@@ -13,8 +13,11 @@
   },
   "apps": [
     {
-      "categories": ["Reading", "Multimedia"],
-      "suggestedVersionCode": "2",
+      "categories": [
+        "Reading",
+        "Multimedia"
+      ],
+      "suggestedVersionCode": "3",
       "license": "GPL-3.0-or-later",
       "name": "TTS Reader",
       "sourceCode": "https://github.com/Huxley-Brown/Mobile-TTS-App",
@@ -22,12 +25,48 @@
       "summary": "Privacy-focused TTS eBook reader",
       "description": "TTS Reader is a text-to-speech eBook reader for privacy and offline use. Read EPUB, PDF, and MOBI files with high-quality TTS. No tracking or ads. Open source GPL-3.0.",
       "added": 1727788800000,
-      "lastUpdated": 1759398033000,
+      "lastUpdated": 1759414041000,
       "packageName": "org.ttsreader.app"
     }
   ],
   "packages": {
     "org.ttsreader.app": [
+      {
+        "added": 1759414041000,
+        "apkName": "org.ttsreader.app_3.apk",
+        "hash": "4bad358cf4488c7655d9b4bcd9ecb4c2aa1887cef24922a86794bdfdf09bcf25",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "targetSdkVersion": 35,
+        "packageName": "org.ttsreader.app",
+        "sig": "4bfeacfab77fb6ba73bfd05880d166322ab877a896c42f8245b4d7af89fea663",
+        "signer": "9ba504727dd43004c531b3e0a9e4636162084 07d",
+        "size": 94989391,
+        "versionName": "0.3.0",
+        "versionCode": 3,
+        "nativecode": [
+          "armeabi-v7a",
+          "arm64-v8a",
+          "x86",
+          "x86_64"
+        ],
+        "features": [],
+        "uses-permission": [
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ]
+        ],
+        "uses-permission-sdk-23": []
+      },
       {
         "added": 1759398033000,
         "apkName": "org.ttsreader.app_2.apk",
@@ -41,12 +80,26 @@
         "size": 92168255,
         "versionName": "0.2.0",
         "versionCode": 2,
-        "nativecode": ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"],
+        "nativecode": [
+          "armeabi-v7a",
+          "arm64-v8a",
+          "x86",
+          "x86_64"
+        ],
         "features": [],
         "uses-permission": [
-          ["android.permission.INTERNET", null],
-          ["android.permission.READ_EXTERNAL_STORAGE", null],
-          ["android.permission.WRITE_EXTERNAL_STORAGE", null]
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ]
         ],
         "uses-permission-sdk-23": []
       },
@@ -63,12 +116,26 @@
         "size": 89128960,
         "versionName": "0.1.0",
         "versionCode": 1,
-        "nativecode": ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"],
+        "nativecode": [
+          "armeabi-v7a",
+          "arm64-v8a",
+          "x86",
+          "x86_64"
+        ],
         "features": [],
         "uses-permission": [
-          ["android.permission.INTERNET", null],
-          ["android.permission.READ_EXTERNAL_STORAGE", null],
-          ["android.permission.WRITE_EXTERNAL_STORAGE", null]
+          [
+            "android.permission.INTERNET",
+            null
+          ],
+          [
+            "android.permission.READ_EXTERNAL_STORAGE",
+            null
+          ],
+          [
+            "android.permission.WRITE_EXTERNAL_STORAGE",
+            null
+          ]
         ],
         "uses-permission-sdk-23": []
       }

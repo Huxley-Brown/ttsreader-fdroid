@@ -1,0 +1,10 @@
+Version 0.3.0:
+* Enhanced metadata extraction for PDF and EPUB files
+* Added comprehensive tag management system (create, edit, delete, assign tags)
+* Integrated filtering UI with favorites, tags, and sorting options
+* Fixed text input color visibility issues
+* Improved app name to "Reader"
+* Enhanced PDF text extraction with native Android PDFBox integration
+* Better EPUB parsing with improved metadata handling
+* Unified filter and sort interface for better user experience
+* General bug fixes and stability improvements
