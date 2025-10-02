@@ -1,0 +1,14 @@
+Version 0.2.0:
+* Added OpenAI TTS integration with direct API support
+* Implemented smart audio preloading system for seamless playback
+* Added comprehensive error handling and retry logic
+* Improved PDF text extraction with native Android PDFBox integration
+* Enhanced EPUB parsing with better text extraction
+* Added audio caching system for improved performance
+* Implemented background audio preloading (next 5 sentences)
+* Added loading indicators and better user feedback
+* Fixed pause/play button responsiveness
+* Improved auto-advance functionality between sentences
+* Enhanced UI with better modal handling and voice selection
+* Added support for multiple TTS providers (Android TTS + OpenAI)
+* General stability improvements and bug fixes

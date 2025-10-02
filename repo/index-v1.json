@@ -1,6 +1,6 @@
 {
   "repo": {
-    "timestamp": 1727788800000,
+    "timestamp": 1759398033000,
     "version": 20001,
     "name": "TTS Reader Repository",
     "icon": "icon.png",
@@ -14,7 +14,7 @@
   "apps": [
     {
       "categories": ["Reading", "Multimedia"],
-      "suggestedVersionCode": "1",
+      "suggestedVersionCode": "2",
       "license": "GPL-3.0-or-later",
       "name": "TTS Reader",
       "sourceCode": "https://github.com/Huxley-Brown/Mobile-TTS-App",
@@ -22,12 +22,34 @@
       "summary": "Privacy-focused TTS eBook reader",
       "description": "TTS Reader is a text-to-speech eBook reader for privacy and offline use. Read EPUB, PDF, and MOBI files with high-quality TTS. No tracking or ads. Open source GPL-3.0.",
       "added": 1727788800000,
-      "lastUpdated": 1727788800000,
+      "lastUpdated": 1759398033000,
       "packageName": "org.ttsreader.app"
     }
   ],
   "packages": {
     "org.ttsreader.app": [
+      {
+        "added": 1759398033000,
+        "apkName": "org.ttsreader.app_2.apk",
+        "hash": "246d9836c5ada9b953941da05011af6910217d409378feae921032e75181e7a1",
+        "hashType": "sha256",
+        "minSdkVersion": 24,
+        "targetSdkVersion": 35,
+        "packageName": "org.ttsreader.app",
+        "sig": "4bfeacfab77fb6ba73bfd05880d166322ab877a896c42f8245b4d7af89fea663",
+        "signer": "9ba504727dd43004c531b3e0a9e4636162084 07d",
+        "size": 92168255,
+        "versionName": "0.2.0",
+        "versionCode": 2,
+        "nativecode": ["armeabi-v7a", "arm64-v8a", "x86", "x86_64"],
+        "features": [],
+        "uses-permission": [
+          ["android.permission.INTERNET", null],
+          ["android.permission.READ_EXTERNAL_STORAGE", null],
+          ["android.permission.WRITE_EXTERNAL_STORAGE", null]
+        ],
+        "uses-permission-sdk-23": []
+      },
       {
         "added": 1727788800000,
         "apkName": "org.ttsreader.app_1.apk",
