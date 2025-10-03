@@ -1,0 +1,9 @@
+Version 0.4.0:
+* Fixed continuous playback when returning to already playing book
+* Improved UI state synchronization with TTS playback
+* Enhanced global state management for background playback
+* Fixed play/pause button state accuracy
+* Improved EPUB and PDF text highlighting during playback
+* Better error handling and state restoration
+* Performance improvements for audio preloading
+* General stability improvements and bug fixes
