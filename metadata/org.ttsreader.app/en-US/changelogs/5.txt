@@ -1,0 +1,4 @@
+Version 0.5.0:
+- Stability improvements
+- UI polish and analytics caching
+- Lock screen control fixes
